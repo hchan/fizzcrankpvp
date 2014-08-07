@@ -1,0 +1,313 @@
+------------------------------------------------------------------------
+r35 | kunda | 2011-08-29 11:16:46 +0000 (Mon, 29 Aug 2011) | 20 lines
+Changed paths:
+   A /tags/40200-11 (from /trunk:34)
+
+New in BattlegroundTargets-40200-11:
+- added enemy flag carrier detection (DISABLED by DEFAULT)
+ - enUS, deDE, esES and frFR: TESTED with Patch 4.2.0.14480 (LIVE)
+ - esMX, koKR, ruRU and zhTW: TESTED with Patch 4.2.2.14534 (PTR)
+ - zhCN: NOT TESTED
+ NOTE:
+ Eye of the Storm is bugged (or it's intended): no event is triggered if an enemy player pick up the flag.
+- added horizontal positioning slider for target, focus and flag carrier
+- added icon shuffler (icon testing) for target, focus and flag carrier
+- added copy settings: 10 --> 15 and 15 --> 10
+- fixed target button highlighting
+- configuration frame revised
+
+New in BattlegroundTargets-40200-10:
+- added health bar and health percent (DISABLED by DEFAULT) [read NOTES in BattlegroundTargets.lua for more information!]
+- added scale slider for target and focus indicator
+- improved button highlighting for target
+- increased some option value ranges
+- koKR update (Thanks Sayclub)
+- ruRU update (Thanks AlexFlexy)
+------------------------------------------------------------------------
+r34 | kunda | 2011-08-29 11:09:49 +0000 (Mon, 29 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localized-flag.lua
+   M /trunk/BattlegroundTargets.lua
+
+update
+------------------------------------------------------------------------
+r33 | Sayclub | 2011-08-28 04:17:42 +0000 (Sun, 28 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+
+koKR update
+------------------------------------------------------------------------
+r32 | kunda | 2011-08-28 01:58:09 +0000 (Sun, 28 Aug 2011) | 12 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-esMX.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   A /trunk/BattlegroundTargets-localized-flag.lua
+   M /trunk/BattlegroundTargets-localized-talents.lua
+   M /trunk/BattlegroundTargets-texture-icons.tga
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+- added enemy flag carrier detection
+ - enUS, deDE, esES and frFR: TESTED with Patch 4.2.0.14480 (LIVE)
+ - esMX, koKR, ruRU and zhTW: TESTED with Patch 4.2.2.14534 (PTR)
+ - zhCN: NOT TESTED
+ NOTE:
+ 'Eye of the Storm' is bugged (or it's intended): no event is triggered if an enemy player pick up the flag.
+
+- added horizontal positioning slider for target, focus and flag carrier
+- added icon shuffler (icon testing) for target, focus and flag carrier
+- added copy settings: 10 --> 15 and 15 --> 10
+- fixed target button highlighting
+- configuration frame revised
+------------------------------------------------------------------------
+r30 | kunda | 2011-08-20 16:09:19 +0000 (Sat, 20 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets.toc
+
+update ruRU (Thanks AlexFlexy)
+------------------------------------------------------------------------
+r28 | kunda | 2011-08-20 12:54:51 +0000 (Sat, 20 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+next one: update previous commit
+------------------------------------------------------------------------
+r27 | kunda | 2011-08-20 01:05:19 +0000 (Sat, 20 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+update previous commit
+------------------------------------------------------------------------
+r26 | kunda | 2011-08-19 23:01:19 +0000 (Fri, 19 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+update previous commit
+------------------------------------------------------------------------
+r25 | kunda | 2011-08-19 22:18:34 +0000 (Fri, 19 Aug 2011) | 4 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets.lua
+
+- added scale slider for target and focus indicator
+- improved highlighting for target
+- cleanup
+- koKR update (Thanks Sayclub)
+------------------------------------------------------------------------
+r24 | kunda | 2011-08-19 07:50:52 +0000 (Fri, 19 Aug 2011) | 2 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-esMX.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+- added health bar and health percent (DISABLED by DEFAULT) [read NOTES in BattlegroundTargets.lua for more information!]
+- optimized code
+------------------------------------------------------------------------
+r22 | kunda | 2011-08-13 01:59:50 +0000 (Sat, 13 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+changed some default settings
+------------------------------------------------------------------------
+r21 | kunda | 2011-08-13 01:38:06 +0000 (Sat, 13 Aug 2011) | 8 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   A /trunk/BattlegroundTargets-localization-esMX.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets-localized-bgnames.lua
+   M /trunk/BattlegroundTargets-localized-talents.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+Localization fixes & updates:
+- CHANGED: fontsize
+- fixed fontsize & font (mainly for koKR, zhCN & zhTW)
+- fixed esES Deathknight, Hunter and Priest Talents
+- fixed ruRU Deathknight, Hunter, Paladin und Priest Talents
+- fixed zhTW Warlock Talents
+- added esMX (this is not officially supported, or?! anyway...here it is)
+- removed unused loca strings
+------------------------------------------------------------------------
+r20 | kunda | 2011-08-12 00:33:17 +0000 (Fri, 12 Aug 2011) | 2 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+- CHANGED: right-click sets now target AND focus
+- zhCN update
+------------------------------------------------------------------------
+r18 | kunda | 2011-08-08 20:36:22 +0000 (Mon, 08 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+rated bg bug fix
+------------------------------------------------------------------------
+r16 | kunda | 2011-08-07 11:45:16 +0000 (Sun, 07 Aug 2011) | 3 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets-localized-bgnames.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+BattlegroundTargets:
+- fix bgname (Thanks gamemaster128)
+- removed unused localizations
+------------------------------------------------------------------------
+r14 | kunda | 2011-08-06 17:49:37 +0000 (Sat, 06 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+fix config
+------------------------------------------------------------------------
+r13 | kunda | 2011-08-06 13:04:46 +0000 (Sat, 06 Aug 2011) | 4 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+BattlegroundTargets:
+- added close button to config frame (for the force of habit)
+- added show specialization
+- fix target and focus indicator
+------------------------------------------------------------------------
+r11 | kunda | 2011-08-05 01:14:14 +0000 (Fri, 05 Aug 2011) | 5 lines
+Changed paths:
+   M /trunk/BattlegroundTargets.lua
+
+BattlegroundTargets:
+- update
+
+previous commit message fix:
+- added right-click: set focus to your current target
+------------------------------------------------------------------------
+r10 | kunda | 2011-08-04 22:57:46 +0000 (Thu, 04 Aug 2011) | 5 lines
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets-texture-icons.tga
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+BattlegroundTargets:
+- added left click: set focus to your current target
+- added focus indicator
+- added independent positioning for each bg bracket (10, 15 and 40)
+- better opposite faction check
+------------------------------------------------------------------------
+r8 | kunda | 2011-08-02 10:40:26 +0000 (Tue, 02 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets.toc
+
+toc update
+------------------------------------------------------------------------
+r7 | kunda | 2011-08-02 10:27:11 +0000 (Tue, 02 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localized-bgnames.lua
+
+fix frFR bgname (Thanks Nephtys_ch)
+------------------------------------------------------------------------
+r5 | kunda | 2011-08-02 10:21:03 +0000 (Tue, 02 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+update
+------------------------------------------------------------------------
+r3 | kunda | 2011-08-01 23:01:51 +0000 (Mon, 01 Aug 2011) | 1 line
+Changed paths:
+   M /trunk/BattlegroundTargets-localization-deDE.lua
+   M /trunk/BattlegroundTargets-localization-enUS.lua
+   M /trunk/BattlegroundTargets-localization-esES.lua
+   M /trunk/BattlegroundTargets-localization-frFR.lua
+   M /trunk/BattlegroundTargets-localization-koKR.lua
+   M /trunk/BattlegroundTargets-localization-ruRU.lua
+   M /trunk/BattlegroundTargets-localization-zhCN.lua
+   M /trunk/BattlegroundTargets-localization-zhTW.lua
+   M /trunk/BattlegroundTargets.lua
+   M /trunk/BattlegroundTargets.toc
+
+update
+------------------------------------------------------------------------
+r2 | kunda | 2011-08-01 17:44:08 +0000 (Mon, 01 Aug 2011) | 4 lines
+Changed paths:
+   A /trunk/.pkgmeta
+   A /trunk/BattlegroundTargets-localization-deDE.lua
+   A /trunk/BattlegroundTargets-localization-enUS.lua
+   A /trunk/BattlegroundTargets-localization-esES.lua
+   A /trunk/BattlegroundTargets-localization-frFR.lua
+   A /trunk/BattlegroundTargets-localization-koKR.lua
+   A /trunk/BattlegroundTargets-localization-ruRU.lua
+   A /trunk/BattlegroundTargets-localization-zhCN.lua
+   A /trunk/BattlegroundTargets-localization-zhTW.lua
+   A /trunk/BattlegroundTargets-localized-bgnames.lua
+   A /trunk/BattlegroundTargets-localized-talents.lua
+   A /trunk/BattlegroundTargets-texture-button.tga
+   A /trunk/BattlegroundTargets-texture-icons.tga
+   A /trunk/BattlegroundTargets.lua
+   A /trunk/BattlegroundTargets.toc
+
+BattlegroundTargets:
+Shows battleground targets.
+
+initial commit
+------------------------------------------------------------------------
+r1 | root | 2011-08-01 17:33:56 +0000 (Mon, 01 Aug 2011) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"battlegroundtargets/mainline: Initial Import"
+------------------------------------------------------------------------

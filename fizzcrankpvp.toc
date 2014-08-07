@@ -1,0 +1,22 @@
+## Interface: 40200
+## Title: Nositer's RBG addon
+## Notes: Nositer's RBG addon
+## Author: Nositer
+## Version: 0.1
+
+embeds.xml
+BattlegroundTargets-localized-bgnames.lua
+BattlegroundTargets-localized-talents.lua
+BattlegroundTargets-localized-flag.lua
+
+BattlegroundTargets-localization-enUS.lua
+BattlegroundTargets-localization-deDE.lua
+BattlegroundTargets-localization-esES.lua
+BattlegroundTargets-localization-esMX.lua
+BattlegroundTargets-localization-frFR.lua
+BattlegroundTargets-localization-koKR.lua
+BattlegroundTargets-localization-ruRU.lua
+BattlegroundTargets-localization-zhCN.lua
+BattlegroundTargets-localization-zhTW.lua
+
+fizzcrankpvp.lua
